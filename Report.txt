@@ -1,0 +1,5 @@
+Based on the CodeQL analysis performed on the FlexGen repository, potential security vulnerabilities were found in the codebase.
+The analysis identified code paths that accept parameters containing keywords such as "password," "token," or "secret," which could
+be used in potentially vulnerable ways. These include functions that use insecure hashing methods or send passwords over the network
+unencrypted. These vulnerabilities could be exploited by malicious actors to gain unauthorized access to sensitive data or systems.
+It is recommended that the development team review and address these vulnerabilities to improve the overall security posture of the application.
